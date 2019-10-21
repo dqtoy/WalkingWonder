@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PuzzleWalkNode : MonoBehaviour
 {
-
+    [SerializeField] bool visible = true;
 
     void Start()
     {
-        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<MeshRenderer>().enabled = visible;
     }
 
     // Update is called once per frame
