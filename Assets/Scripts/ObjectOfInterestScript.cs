@@ -51,7 +51,7 @@ public class ObjectOfInterestScript : MonoBehaviour
     float AnimFrameTime;
     int AnimIndex = 0;
 
-
+    [SerializeField] bool facePlayerBool = true;
     private void Awake()
     {
         Audio = GetComponentInChildren<AudioSource>();
@@ -81,11 +81,13 @@ public class ObjectOfInterestScript : MonoBehaviour
         AudioPlayRange_Sqr = AudioPlayRange * AudioPlayRange;
         ImageFadeInDistance_Sqr = ImageFadeInDistance * ImageFadeInDistance;
         if (ImageFadeInDistance > ImageGoneDist) { float i = ImageGoneDist; ImageGoneDist = ImageFadeInDistance; ImageFadeInDistance = i; }
-
-
-        Quaternion targetRotation = Quaternion.LookRotation(PlayerScript.instance.transform.position - transform.position);
-        float t = Mathf.Min(0.8f * Time.deltaTime, 1);
-        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, t);
+           
+        if (facePlayerBool)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(PlayerScript.instance.transform.position - transform.position);
+            float t = Mathf.Min(0.8f * Time.deltaTime, 1);
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, t);
+        }
 
         float _playerSqrDist = (PlayerScript.instance.transform.position - transform.position).sqrMagnitude;
 
