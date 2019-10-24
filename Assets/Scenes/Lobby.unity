@@ -2891,7 +2891,8 @@ PrefabInstance:
     - target: {fileID: 1693657164, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 52cf5be875bf912429d30bc77967a3bc, type: 2}
+      objectReference: {fileID: -6040312146083281153, guid: b558266072e5c1b4b84d2d90e78dab03,
+        type: 2}
     - target: {fileID: 11453698, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4243,6 +4244,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: f6d3e91dd33ba45449fb13ce5f27aaeb, type: 3}
     m_FontSize: 44
