@@ -4177,8 +4177,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: f6d3e91dd33ba45449fb13ce5f27aaeb, type: 3}
     m_FontSize: 44
@@ -5016,7 +5014,7 @@ PrefabInstance:
     - target: {fileID: 192351636139509618, guid: d5079a382e1d0475bbedb34551d4cf7a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20
+      value: -19.972
       objectReference: {fileID: 0}
     - target: {fileID: 192351636139509618, guid: d5079a382e1d0475bbedb34551d4cf7a,
         type: 3}
