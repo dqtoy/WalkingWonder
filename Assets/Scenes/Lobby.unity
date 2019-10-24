@@ -4305,6 +4305,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: f6d3e91dd33ba45449fb13ce5f27aaeb, type: 3}
     m_FontSize: 44
@@ -5188,6 +5190,14 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: e8b6a8b61a8d07d4497af0f681e95f84, type: 3}
+    - target: {fileID: 2136996706, guid: d5079a382e1d0475bbedb34551d4cf7a, type: 3}
+      propertyPath: m_Volume
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2136996706, guid: d5079a382e1d0475bbedb34551d4cf7a, type: 3}
+      propertyPath: Priority
+      value: 191
+      objectReference: {fileID: 0}
     - target: {fileID: 192351636140005746, guid: d5079a382e1d0475bbedb34551d4cf7a,
         type: 3}
       propertyPath: far clip plane
@@ -5291,6 +5301,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d21f4174ff2dfc6438dd7faf567f2e90, type: 3}
+    - target: {fileID: 192351636146127538, guid: d5079a382e1d0475bbedb34551d4cf7a,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.504
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5079a382e1d0475bbedb34551d4cf7a, type: 3}
 --- !u!82 &1940528037 stripped
