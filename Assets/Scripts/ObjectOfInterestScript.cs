@@ -81,7 +81,7 @@ public class ObjectOfInterestScript : MonoBehaviour
         AudioPlayRange_Sqr = AudioPlayRange * AudioPlayRange;
         ImageFadeInDistance_Sqr = ImageFadeInDistance * ImageFadeInDistance;
         if (ImageFadeInDistance > ImageGoneDist) { float i = ImageGoneDist; ImageGoneDist = ImageFadeInDistance; ImageFadeInDistance = i; }
-
+           
         if (facePlayerBool)
         {
             Quaternion targetRotation = Quaternion.LookRotation(PlayerScript.instance.transform.position - transform.position);
