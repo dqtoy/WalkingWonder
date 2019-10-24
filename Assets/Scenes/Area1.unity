@@ -5446,6 +5446,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Endless
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b558266072e5c1b4b84d2d90e78dab03, type: 2}
@@ -47903,6 +47905,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Endless
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b558266072e5c1b4b84d2d90e78dab03, type: 2}
