@@ -3139,7 +3139,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Clip
       value: 
-      objectReference: {fileID: 8300000, guid: addff1f58f118a3449146e97d0fd7397, type: 3}
+      objectReference: {fileID: 8300000, guid: bbd8741026b6e4f189b1e116c664df1e, type: 3}
     - target: {fileID: 4208037803108062481, guid: b7a183b17c75e452aa1ee6505928e336,
         type: 3}
       propertyPath: Images.Array.data[0]
@@ -59409,11 +59409,6 @@ PrefabInstance:
     - target: {fileID: 3899680267914926327, guid: 8e90a089d26604164b8315c56c5ef67d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4803447117271252527, guid: 8e90a089d26604164b8315c56c5ef67d,
-        type: 3}
-      propertyPath: m_SelectedEditorRenderState
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
