@@ -14,10 +14,10 @@ public class SoundNode : MonoBehaviour
     void Update()
     {
         float dist = Vector3.Distance(transform.position, thePlayer.transform.position);
-        if(dist < 4)
+        if(dist < 4 && !GetComponent<AudioSource>().isPlaying)
         {
 
-
+            transform.parent.GetComponent<SoundTriggerParent>().PlayNewSound(this.gameObject);
         }
     }
 }
