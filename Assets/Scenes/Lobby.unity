@@ -5285,7 +5285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -359.7
+      value: -359.6892
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5293,7 +5293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 96.1
+      value: 96.100006
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5301,7 +5301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: -0.0026300882
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5309,7 +5309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.00005297503
+      value: 0.99999654
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_RootOrder
@@ -5321,7 +5321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.994
+      value: -0.30100003
       objectReference: {fileID: 0}
     - target: {fileID: 448652, guid: 79b29810067fd479ead2f61ad20c5d77, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -5568,7 +5568,7 @@ PrefabInstance:
     - target: {fileID: 192351636140005746, guid: d5079a382e1d0475bbedb34551d4cf7a,
         type: 3}
       propertyPath: far clip plane
-      value: 4000
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 192351636149268146, guid: d5079a382e1d0475bbedb34551d4cf7a,
         type: 3}
