@@ -7,6 +7,7 @@ public class Glasses : MonoBehaviour
     GameObject teleportSpot;
     GameObject theGlasses;
     Vector3 glassesInPlace;
+    GameObject theGrandma;
     void Start()
     {
         foreach (Transform child in transform)
@@ -15,6 +16,8 @@ public class Glasses : MonoBehaviour
                 theGlasses = child.gameObject;
             if (child.name.Contains("tele"))
                 teleportSpot = child.gameObject;
+            if (child.name.Contains("Grandma"))
+                theGrandma = child.gameObject;
         }
 
         glassesInPlace = theGlasses.transform.position;
@@ -26,11 +29,14 @@ public class Glasses : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            float dist = Vector3.Distance(PlayerScript.instance.gameObject.transform.position, transform.position);
+         
+            float dist = Vector3.Distance(PlayerScript.instance.gameObject.transform.position, theGrandma.transform.position);
+            print("down " + dist);
             if (dist < 10)
             {
                 if(Vector3.Distance(theGlasses.transform.position, glassesInPlace) > 100){
                     theGlasses.transform.position = glassesInPlace;
+                    print("place glasses");
                     PlayerScript.instance.gameObject.GetComponent<CharacterController>().enabled = false;
                     StartCoroutine(PlacePlayer(2.5f));
                
