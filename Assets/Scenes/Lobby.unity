@@ -3059,7 +3059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &938681274
 Transform:
   m_ObjectHideFlags: 0
@@ -3151,7 +3151,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &939098005
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5186,7 +5186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1590306742
 Transform:
   m_ObjectHideFlags: 0
@@ -5544,10 +5544,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1360854783, guid: d5079a382e1d0475bbedb34551d4cf7a, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: d21f4174ff2dfc6438dd7faf567f2e90, type: 3}
     - target: {fileID: 2136996706, guid: d5079a382e1d0475bbedb34551d4cf7a, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -5659,6 +5655,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1360854783, guid: d5079a382e1d0475bbedb34551d4cf7a, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d21f4174ff2dfc6438dd7faf567f2e90, type: 3}
     - target: {fileID: 192351636146127538, guid: d5079a382e1d0475bbedb34551d4cf7a,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
