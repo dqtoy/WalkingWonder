@@ -11883,7 +11883,7 @@ GameObject:
   - component: {fileID: 183479920}
   - component: {fileID: 183479919}
   - component: {fileID: 183479918}
-  m_Layer: 5
+  m_Layer: 19
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24401,7 +24401,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 48.340164
   m_InnerSpotAngle: 21.80208
@@ -42047,7 +42047,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 48.340164
   m_InnerSpotAngle: 21.80208
@@ -45826,7 +45826,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 48.340164
   m_InnerSpotAngle: 21.80208
@@ -77630,7 +77630,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
