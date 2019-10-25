@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundNode : MonoBehaviour
 {
     GameObject thePlayer;
-    void Awake()
+    void Start()
     {
         thePlayer = PlayerScript.instance.gameObject;
     }

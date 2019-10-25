@@ -22,8 +22,9 @@ public class destroy : MonoBehaviour
     {
         float dist = Vector3.Distance(PlayerScript.instance.gameObject.transform.position, this.gameObject.transform.position);
         //  print(dist);
-        if (dist < 10)
+        if (dist < 20   )
         {
+
             Destroy(this.gameObject);
 
         }
