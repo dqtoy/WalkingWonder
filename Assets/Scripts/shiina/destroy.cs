@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PazzleWalkNode2 : MonoBehaviour
+public class destroy : MonoBehaviour
 {
     [SerializeField] bool visible = true;
 
@@ -24,7 +24,7 @@ public class PazzleWalkNode2 : MonoBehaviour
         //  print(dist);
         if (dist < 10)
         {
-            transform.parent.GetComponent<PazzleNodeParent2>().ReceiveNode(this.gameObject);
+            Destroy(this.gameObject);
 
         }
     }
