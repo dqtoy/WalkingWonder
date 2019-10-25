@@ -22,7 +22,7 @@ public class PuzzleWalkNode : MonoBehaviour
     {
         float dist = Vector3.Distance(PlayerScript.instance.gameObject.transform.position, this.gameObject.transform.position);
         //  print(dist);
-        if (dist < 8)
+        if (dist < 20)
         {
             transform.parent.GetComponent<PuzzleWalkParent>().ReceiveNode(this.gameObject);
 
