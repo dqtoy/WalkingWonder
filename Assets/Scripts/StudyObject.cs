@@ -20,7 +20,7 @@ public class StudyObject : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 float dist = Vector3.Distance(PlayerScript.instance.gameObject.transform.position, transform.position);
-                if (dist < 8)
+                if (dist < 12)
                 {
                     resultTextComponent.RecieveText(textResult);
                     checkForExit = true;
@@ -32,7 +32,7 @@ public class StudyObject : MonoBehaviour
         {
 
             float dist = Vector3.Distance(PlayerScript.instance.gameObject.transform.position, transform.position);
-            if (dist > 10 || Input.GetKeyDown(KeyCode.E))
+            if (dist > 15 || Input.GetKeyDown(KeyCode.E))
             {
                 resultTextComponent.RecieveText("");
                 checkForExit = false;
